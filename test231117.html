@@ -7,14 +7,14 @@
     <title>test</title>
 </head>
 <body>
-    <style>
-        body {
+<style>
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 50px 0px;
-    background: #90cbf3;
+    background: #a3c8e0;
     font-family: sans-serif;
     font-weight: lighter;
 }
@@ -48,16 +48,15 @@
 
 
 
+ </style>
+ <div id="timer"></div>
 
-    </style>
-    <div id="timer"></div>
-
-        <script type="text/javascript">
+<script type="text/javascript">
         
         
         
-        function updateTimer() {
-    const future = Date.parse("2024/01/01 00:00:00");
+function updateTimer() {
+const future = Date.parse("2024/01/01 00:00:00");
  const now = new Date();
  const diff = future - now;
 
